@@ -1,0 +1,17 @@
+{
+  "name": "callbag-ap",
+  "version": "1.0.0",
+  "description": "callbag operator that applies data to a transformation passing through it",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "callbag"
+  ],
+  "author": "Jason Polhemus <shatteredaesthetic@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
