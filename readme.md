@@ -8,7 +8,7 @@ Callbag operator that applies data to a transformation passing through it. Works
 
 ```js
 const fromIter = require('callbag-from-iter');
-const forEach = require('callbag-foreach');
+const forEach = require('callbag-for-each');
 const ap = require('callbag-ap');
 
 const iter = fromIter([
@@ -18,7 +18,7 @@ const iter = fromIter([
   x => x === 2
 ]);
 
-const source = ap(2)(fromIter([]));
+const source = ap(2)(iter);
 
 forEach(x => console.log(x))(source); // 3
                                       // 4
